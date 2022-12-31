@@ -1,20 +1,13 @@
-mport pyscreenshot as ImageGrab
 import pyautogui
 import numpy as np
 import cv2
 import os, sys
 from PIL import Image
 import pyscreenshot as ImageGrab
-import pyautogui
-import cv2
 import time
-import os
 import json
-from PIL import Image
 from python_imagesearch.imagesearch import imagesearcharea,region_grabber
-import numpy as np
 import matplotlib.image as mpimg
-import cv2
 import matplotlib.pyplot as plt
 def screenShot():
     ImageGrab.grab().save("Screenshot.png")
